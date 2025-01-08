@@ -1,0 +1,3 @@
+## Descripción Script CIF_NIF_Anonimizador.py
+
+Este script anonimiza la columna `CIF_NIF` de la hoja `DATOS` en un archivo Excel, generando valores aleatorios de 9 caracteres mediante combinaciones de letras y números. Utiliza `pandas` y `openpyxl` para leer y escribir en el archivo. La complejidad temporal es \(O(n + m)\), donde \(n\) es el número de filas en la columna y \(m\) el tiempo necesario para las operaciones de lectura y escritura del Excel. Aunque eficiente para columnas pequeñas, su rendimiento se ve limitado por el procesamiento fila a fila y las operaciones de I/O en archivos grandes.
